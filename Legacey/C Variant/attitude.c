@@ -50,3 +50,5 @@ void attitude_update(AttitudeState *state,
     state->pitch = COMPLEMENTARY_ALPHA * pitch_gyro +
                    (1.0f - COMPLEMENTARY_ALPHA) * pitch_acc;
 }
+
+
